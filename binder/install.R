@@ -6,5 +6,5 @@
 # install_version("ggplot2", "3.3.2")
 # install_version("ggcorrplot", "0.1.3")
 # install_version("plotly", "4.9.2.1")
-install_version("sjPlot", "2.8.4")
+# install_version("sjPlot", "2.8.4")
 
