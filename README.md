@@ -1,6 +1,6 @@
 # **Participation and Democracy**<br/> **Ross Campbell, PhD**
 
-In this module, I will run five live sessions designed to mimic the flow of how a real political scientist would begin to research political participation. Each session will take a separate form of participation. We will analyse how many people participate in that form and compare the levels across different countries and political systems. Following that, we will probe into the factors that influence it.  
+In this module, I will run five live sessions designed to mimic the flow of how a real political scientist would begin to research political participation. Each session will take a separate form of participation. We will analyse how many people participate in that form, compare the levels across different countries and political systems and then probe into the factors that influence it.  
 
 # What technology will we use to do this? 
 
