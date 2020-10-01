@@ -4,7 +4,7 @@ In this module, I will run five live sessions designed to mimic the flow of how 
 
 # What technology will we use to do this? 
 
-We are going to use an online computational environment that can be accessed above from the "launch binder" icon. After you click on it, you will go into a bespoke learning environment that I created for these sessions. This might take some time to load, possibly **3-4 minutes**, depending on the speed of your network. It may be tempting after a couple of minutes to retry altogether, but don't do this. Instead, be patient and you will get there. 
+We are going to use an online computational environment that can be accessed above from the "launch binder" icon. After you click on it, you will go into a bespoke learning environment that I created for these sessions. This might take some time to load, possibly **4-5 minutes**, depending on the speed of your network. It may be tempting after a couple of minutes to retry altogether, but don't do this. Instead, be patient and you will get there. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drcampbell1/Participation-and-Democracy/master?urlpath=rstudio)
 
