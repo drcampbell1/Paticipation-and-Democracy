@@ -6,9 +6,6 @@ In this module, I will run five live sessions designed to mimic the flow of how 
 
 We are going to use an online computational environment that can be accessed above from the "launch binder" icon. After you click on it, you will go into a bespoke learning environment that I created for these sessions. This might take some time to load, possibly **4-5 minutes**, depending on the speed of your network. It may be tempting after a couple of minutes to retry altogether, but don't do this. Instead, be patient and you will get there. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drcampbell1/Participation-and-Democracy/master?urlpath=rstudio)
-
-
 The software we'll be using is RStudio and you can fine more information about it here: (https://www.rstudio.com). RStudio is an open-source programme for analysing data and is one of the leading programming languages. As I explain below, you don't need to be a computer programmer; I've written the code for you and will show you how to execute it. 
 
 # What data will we use?
