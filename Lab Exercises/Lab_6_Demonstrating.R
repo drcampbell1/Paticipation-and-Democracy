@@ -7,11 +7,10 @@
 
 ESS <- foreign::read.dta("data/ESS.dta", convert.factors=TRUE)
 attach(ESS)
-View(ESS)
+library(tidyverse)
+options(warn = -1)
 
 # Question 1: How common is demonstrating in European democracies?
-
-library(tidyverse)
 
 ESS %>% filter(!is.na(demo)) %>% count(demo) %>%
   mutate(percent = round(n/sum(n)*100, digits=1)) %>%
