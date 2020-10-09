@@ -13,8 +13,8 @@
 
 ESS <- foreign::read.dta("data/ESS.dta", convert.factors=TRUE)
 attach(ESS)
-View(ESS)
 library(tidyverse)
+options(warn = -1)
 
 #Introduction to the data#
 
