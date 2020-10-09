@@ -4,8 +4,8 @@
 
 ESS <- foreign::read.dta("data/ESS.dta", convert.factors=TRUE)
 attach(ESS)
-View(ESS)
 library(tidyverse)
+options(warn = -1)
 
 ESS %>% filter(!is.na(rright)) %>% count(rright) %>%
   mutate("%" = round(n/sum(n) * 100, digits=1)) %>%
