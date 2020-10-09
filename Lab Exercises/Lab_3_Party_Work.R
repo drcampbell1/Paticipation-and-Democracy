@@ -11,8 +11,8 @@
 
 ESS <- foreign::read.dta("data/ESS.dta", convert.factors=TRUE)
 attach(ESS)
-View(ESS)
 library(tidyverse)
+options(warn = -1)
 
 #Let's begin by looking at the general levels of working for parties:
 
