@@ -6,13 +6,13 @@
 
 ESS <- foreign::read.dta("data/ESS.dta", convert.factors=TRUE)
 attach(ESS)
-View(ESS)
+library(tidyverse)
+options(warn = -1)
 
 # Question 1: How social are we?
 
 # We're going to start by looking at the variable "social". This is a question asking how
 # frequently people met with their friends.
-library(tidyverse)
 
 ESS %>% filter(!is.na(social)) %>% count(social) %>%
   mutate(percent = round(n/sum(n)*100, digits=1)) %>%
