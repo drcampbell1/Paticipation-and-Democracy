@@ -1,6 +1,6 @@
 # **Participation and Democracy**<br/> **Ross Campbell, PhD**
 
-In this module, I will run five live sessions designed to mimic the flow of how a real political scientist would begin to research political participation. Each session will take a separate form of participation. We will analyse how many people participate in that form, compare the levels across different countries and political systems and then probe into the factors that influence it.  
+In this module, I will run six interactive sessions designed to mimic the flow of how a real political scientist would begin to research political participation. Each session will take a separate form of participation. We will analyse how many people participate in that form, compare the levels across different countries and political systems and then probe into the factors that influence it.  
 
 # What technology will we use to do this? 
 
@@ -8,7 +8,7 @@ We are going to use an online computational environment that can be accessed fro
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drcampbell1/Participation-and-Democracy/master?urlpath=rstudio)
 
-The software we'll be using is RStudio and you can fine more information about it here: (https://www.rstudio.com). RStudio is an open-source programme for analysing data and is one of the leading programming languages. As I explain below, you don't need to be a computer programmer; I've written the code for you and will show you how to execute it. 
+The software we'll be using is RStudio and you can fine more information about it here: (https://www.rstudio.com). RStudio is an open-source programme for analysing data and is one of the leading programming languages. You don't need to be a computer programmer; I've written the code for you and will show you how to execute it. 
 
 # What data will we use?
 
