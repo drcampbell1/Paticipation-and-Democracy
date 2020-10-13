@@ -4,7 +4,7 @@ In this module, I will run six interactive sessions designed to mimic the flow o
 
 # What technology will we use to do this? 
 
-We are going to use an online computational environment that can be accessed from the "launch binder" icon below. After you click on it, you will go into a bespoke learning environment that I created for these sessions. This might take some time to load, possibly **4-5 minutes**, depending on the speed of your network. Because of this, it might be tempting to assume it isn't working. Resist the temptation to shut it down and retry after a couple of minutes. Instead, be patient and you will get there. 
+We are going to use an online computational environment that can be accessed from the "launch binder" icon below. After you click on it, you will go into a bespoke learning environment that I created for these sessions. This might take some time to load, possibly **4-5 minutes**, depending on the speed of your network. Because of this, it might be tempting to assume it isn't working. Resist the temptation to shut it down and retry after a couple of minutes. Instead, be patient and you will get there. In all the times I've tried to access the site, it has never failed outright. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/drcampbell1/Participation-and-Democracy/master?urlpath=rstudio)
 
