@@ -14,7 +14,7 @@ The software we'll be using is RStudio and you can fine more information about i
 
 This course uses an abbreviated verison of the European Social Survey. The survey is too big to use in full, so I've reduced the number of countries and variables to make it more accessible. As you'll see when we look at the questions it asks, it is a really good data source to investigate how and why people participate in politics. Rather than just ask questions, in this module we want to get some answers. 
 
-You can find out more about the survey here: (https://www.europeansocialsurvey.org/)
+You can find out more about the survey [here](https://www.europeansocialsurvey.org/)
 
 # Why are we using data?
 
