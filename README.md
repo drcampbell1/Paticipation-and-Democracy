@@ -26,7 +26,7 @@ No - all of the code will be prepared for you and you will be guided in how to r
 
 # Where can I get help with R/RStudio?
 
-You will need both R and RStudio installed on your machine if you want to run the analyses on your own. You need to install R first and you can do so here: (https://cran.r-project.org/) You can then install RStudio here: (https://rstudio.com/products/rstudio/download/)
+You will need both R and RStudio installed on your machine if you want to run the analyses on your own. You need to install R first and you can do so [here](https://cran.r-project.org/). You can then install RStudio [here](https://rstudio.com/products/rstudio/download/).
 
 If you find that you want to build your skills, there are lots of resources for using R and RStudio. All of the following are free of charge:
 
