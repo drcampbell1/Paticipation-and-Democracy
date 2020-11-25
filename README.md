@@ -49,5 +49,5 @@ If you find that you want to build your skills, there are lots of resources for 
   - (https://dplyr.tidyverse.org/articles/dplyr.html)
 
 
-## Can I run the analyses on my own?
+### Can I run the analyses on my own?
 Yes - practice makes perfect! These materials have been produced to develop your knowledge and you should feel free to enter the data environment when you want. This will help you understand more about participation than simply reading someone's evidence - and this is an important part of being a social scientist. For as interesting as books and articles are, you need to examine the evidence on your own at some point. And the skills and techniques you'll acquire in doing so will benefit you in the long-term.
