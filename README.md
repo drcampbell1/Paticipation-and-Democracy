@@ -24,7 +24,7 @@ This is explained in the introductory lecture. It's important to not that this i
 
 No - all of the code will be prepared for you and you will be guided in how to run it. You will then get results: tables of participation, graphs and charts and we will discuss what these mean. This is the central point of the sessions: looking at the data for yourself and thinking through what it means. At times, this won't be straight-forward, but such is life in social science. 
 
-## Where can I get help with R/RStudio?
+### Where can I get help with R/RStudio?
 
 You will need both R and RStudio installed on your machine if you want to run the analyses on your own. You need to install R first and you can do so [here](https://cran.r-project.org/). You can then install RStudio [here](https://rstudio.com/products/rstudio/download/).
 
