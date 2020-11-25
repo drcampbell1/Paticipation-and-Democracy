@@ -20,7 +20,7 @@ You can find out more about the survey [here](https://www.europeansocialsurvey.o
 
 This is explained in the introductory lecture. It's important to not that this is not a course on statistics. Students do not need to have mathematical skills to complete the lab exercises. But surveys frequently include data on forms of political participation, and this can provide helpful, but qualified, answers to the questions guiding this module. Most commonly, these surveys come in cross-national form; i.e., they are collected in multiple countries simultaneously. This enables us to examine and compare levels of participation in regions within countries, and/or it enables comparisons to be made across countries. In doing this, you may discover that the data contradict your assumptions. The lesson here is to be cautious about approaching this module with assumptions. Not everything that you think is happening is *actually* happening. Let the data guide you, but be critical of it too. 
 
-## Do I need to be able to programme? 
+### Do I need to be able to programme? 
 
 No - all of the code will be prepared for you and you will be guided in how to run it. You will then get results: tables of participation, graphs and charts and we will discuss what these mean. This is the central point of the sessions: looking at the data for yourself and thinking through what it means. At times, this won't be straight-forward, but such is life in social science. 
 
