@@ -10,7 +10,7 @@ We are going to use an online computational environment that can be accessed fro
 
 The software we'll be using is RStudio and you can fine more information about it [here](https://www.rstudio.com). RStudio is an open-source programme for analysing data and is one of the leading programming languages. You don't need to be a computer programmer; I've written the code for you and will show you how to execute it. 
 
-## What data will we use?
+### What data will we use?
 
 This course uses an abbreviated verison of the European Social Survey. The survey is too big to use in full, so I've reduced the number of countries and variables to make it more accessible. As you'll see when we look at the questions it asks, it is a really good data source to investigate how and why people participate in politics. Rather than just ask questions, in this module we want to get some answers. 
 
