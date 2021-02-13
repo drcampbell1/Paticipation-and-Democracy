@@ -61,7 +61,7 @@ ESS%>% group_by(educat, cntry) %>% filter(!is.na(vote1), !is.na(educat)) %>%
   labs(x="", y="", title="Figure 3: Turnout by Education and Country", caption="ESS 2016")+
   geom_bar(stat="identity", position="dodge")+
   scale_fill_manual(values=c("#FF0000", "#0000FF"))+
-  facet_grid(~cntry)+
+  facet_wrap(~cntry, nrow=2)+
   scale_y_continuous(labels=scales::percent)+
   theme_bw()+
   theme(legend.title = element_blank())+
@@ -97,7 +97,7 @@ ESS%>% group_by(econsat, cntry) %>% filter(!is.na(vote1), !is.na(econsat)) %>%
   labs(x="", y="", title="Figure 5: Turnout by Economic Satisfaction and Country", caption="ESS 2016")+
   geom_bar(stat="identity", position="dodge")+
   scale_fill_manual(values=c("#FF0000", "#0000FF"))+
-  facet_grid(~cntry)+
+  facet_wrap(~cntry, nrow=2)+
   scale_y_continuous(labels=scales::percent)+
   theme_bw()+
   theme(legend.title = element_blank())+
@@ -130,7 +130,7 @@ ESS%>% group_by(ptrust, cntry) %>% filter(!is.na(vote1), !is.na(ptrust)) %>%
   labs(x="", y="", title="Figure 7: Turnout by Trust in Politics", caption="ESS 2016")+
   geom_bar(stat="identity", position="dodge")+
   scale_fill_manual(values=c("#FF0000", "#0000FF"))+
-  facet_grid(~cntry)+
+  facet_wrap(~cntry, nrow=2)+
   scale_y_continuous(labels=scales::percent)+
   theme_bw()+
   theme(legend.title = element_blank())+
