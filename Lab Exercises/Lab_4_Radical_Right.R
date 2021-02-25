@@ -60,10 +60,12 @@ c <- ESS %>% filter(cntry %in% c("Germany", "France", "UK")) %>%
   mutate(perc_pop=n/sum(n)*100)
 
 
-d <- ESS %>% ESS %>% filter(cntry %in% c("Germany", "France", "UK")) %>%
-  group_by(cntry, gender) %>% filter(!is.na(rright)) %>%
-  count(rright) %>% mutate(perc_vt_pp=n/sum(n)*100) %>%
-  filter(!rright=="no") %>%
+d <- ESS %>% filter(cntry %in% c("Germany", "France", "UK")) %>%
+  filter(!is.na(rright)) %>%
+  group_by(cntry, gender) %>% 
+  filter(!rright=="no") %>% count(rright) %>% 
+  group_by(cntry) %>% 
+  mutate(perc_vt_pp=n/sum(n)*100) %>% 
   select(-rright)
 
 left_join(c, d, by=c("cntry", "gender")) %>% select(-n.x, -n.y) %>%
@@ -91,7 +93,7 @@ ESS %>% group_by(educat, cntry) %>% filter(!is.na(rright), !is.na(educat)) %>%
   filter(!rright=="no") %>%
   ggplot(aes(x=educat, y=prop, fill=educat)) +
   geom_bar(stat="identity")+
-  facet_grid(~cntry)+
+  facet_wrap(~cntry, nrow=2)+
   labs(x="", y="", title="Figure 3: Voting for the Radical Right by Education and Country", caption="ESS 2016")+
   scale_y_continuous(labels=scales::percent)+
   theme_bw()+
@@ -116,7 +118,7 @@ ESS %>% group_by(ptrust, cntry) %>% filter(!is.na(rright), !is.na(ptrust)) %>%
   filter(!rright=="no") %>%
   ggplot(aes(x=ptrust, y=prop, fill=ptrust)) +
   geom_bar(stat="identity")+
-  facet_grid(~cntry)+
+  facet_wrap(~cntry, nrow=2)+
   labs(x="", y="", title="Figure 5: Political Trust and Voting for the Radical Right", caption="ESS 2016")+
   scale_y_continuous(labels=scales::percent)+
   theme_bw()+
@@ -140,7 +142,7 @@ ESS %>% group_by(tr_ep, cntry) %>% filter(!is.na(rright), !is.na(tr_ep)) %>%
   filter(!rright=="no") %>%
   ggplot(aes(x=tr_ep, y=prop, fill=tr_ep)) +
   geom_bar(stat="identity")+
-  facet_grid(~cntry)+
+  facet_wrap(~cntry, nrow=2)+
   labs(x="", y="", title="Figure 7: Trust in the European Parliament and Voting for the Radical Right", caption="ESS 2016")+
   scale_y_continuous(labels=scales::percent)+
   theme_bw()+
